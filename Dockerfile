@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Jan Nonnen <helvalius@gmail.com>
 # Define the OSM argument, use monaco as default
-ARG OSM=http://download.geofabrik.de/europe/monaco-latest.osm.pbf
+ARG OSM=http://be.gis-lab.info/data/osm_dump/dump/latest/RU-SPE.osm.pbf
 
 RUN apt-get update
 
